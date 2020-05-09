@@ -2,6 +2,7 @@ class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
         
+	// Smallest string size
         int smallest_size = INT_MAX;
         int i, j;
         
